@@ -6,9 +6,9 @@ import unittest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class Test_shop():
+class Test_shop_functions():
 
-    @pytest.mark.test_button
+    @pytest.mark.test_goods_has_add_to_basket_button
     def test_goods_has_add_to_basket_button(self, browser):
         link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
         browser.implicitly_wait(15)
